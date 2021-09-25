@@ -1,0 +1,2 @@
+pip3 install nsepy
+pip3 install pandas
