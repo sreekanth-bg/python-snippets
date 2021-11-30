@@ -1,6 +1,6 @@
-# main module which call stock_tracker.py for calculating and sorting all scripts in list for given days
+# similar to mlulti.py but gives only total change output for given days
 # cannot be used for 1 day, set ny one end date (eday)
-# python3 multi.py 30 
+# python3 multi_stock_tracker.py 180 
 
 
 import sys
@@ -10,7 +10,7 @@ import pandas as pd
 from stock_tracker import getdata
 
 #scripts = ["RELIANCE","HDFCBANK","HINDUNILVR","PIDILITIND","ASIANPAINT","HDFCLIFE","TCS","TITAN","LT","HCLTECH","INFY"]
-scripts = ["RELIANCE","TCS"]
+scripts = ["RELIANCE","TCS", "INFY"]
 days    = [180,90,60,30,7]
 
 PARAM1 = sys.argv[1]

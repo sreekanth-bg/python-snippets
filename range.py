@@ -9,4 +9,4 @@ python range.py
 a,b = map(int,input().strip().split(','))
 
 for n in range(a,b+1):
-    print(n,end =" ")
+    print(n,end =" ")       # end = " ": to print all output in the same line

@@ -13,7 +13,7 @@ from stock_tracker import getdata
 
 # list
 scripts = ["RELIANCE","HDFCBANK","HINDUNILVR","PIDILITIND","ASIANPAINT","HDFCLIFE","TCS","TITAN","LT","HCLTECH","INFY"]
-days    = [365,180,90,60,30,7,0]
+days    = [365,180,90,60,30,7]
 
 #dict = { scripts[i] : i for i in range(0, len(scripts) ) }   # create dict from list
 dict = {}   # empty dictionary

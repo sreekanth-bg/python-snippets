@@ -1,4 +1,4 @@
-# Input days and stock name as parameters. Ex: python tracker.py 30 KEI
+# Input days and stock name as parameters. Ex: python3 single_stock_tracker.py 180 TCS
 
 import sys
 import os
@@ -12,7 +12,7 @@ from nsepy import get_history, get_quote
 
 # Increase the Terminal size in Pandas (to overwrite autodetect values)
 # pd.set_option('display.height', 1000)
-# pd.set_option('display.max_rows', 500)
+pd.set_option('display.max_rows', None)
 # pd.set_option('display.max_columns', 500)
 # pd.set_option('display.width', 1000)
 

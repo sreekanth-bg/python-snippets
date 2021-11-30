@@ -6,7 +6,7 @@ print sum of square root of integers in an array of size N (users inputs integer
 n = int(input("Enter number of elements : ")) 
 
 # Below line read inputs from user using map() function 
-a = list(map(int,input("\nEnter the numbers : ").strip().split(',')))[:n] 
+a = list(map(int,input('\nEnter integers : ').strip().split(',')))[:n] 
 
 b = list(map(lambda x: x**2, a))
 
