@@ -15,5 +15,7 @@ api_key = getpass('api_key:')
 myResponse = requests.get(url,headers={'Authorization': api_key}, verify=False)
 # For successful API call, response code will be 200 (OK)
 jResponse = myResponse.json() if(myResponse.ok) else 0
+# print(jResponse)
 for impact in jResponse:
-        if impact['impact'] == 'maintenance': print(impact['resolved_at'], impact['name'],)  # impact=maintenance,none
+         #if impact['impact'] == 'none': print(impact['resolved_at'], impact['name'],)  # impact=maintenance,none
+         if impact['impact'] == 'none': print(impact)  # impact=maintenance,none
