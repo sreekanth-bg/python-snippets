@@ -9,8 +9,8 @@ import datetime as dt
 import pandas as pd
 from stock_tracker import getdata
 
-#scripts = ["RELIANCE","HDFCBANK","HINDUNILVR","PIDILITIND","ASIANPAINT","HDFCLIFE","TCS","TITAN","LT","HCLTECH","INFY"]
-scripts = ["RELIANCE","TCS", "INFY"]
+#scripts = ["NIFTY BANK","NIFTY ENERGY"]
+scripts = ["RELIANCE","TCS","HCLTECH","HDFCLIFE","ACRYSIL","IRCTC","TATAMOTORS","HDFCBANK","TATAPOWER","NIFTYBEES","PIDILITIND","TITAN","ASIANPAINT","TATACHEM","LT","TATAELXSI"]
 days    = [180,90,60,30,7]
 
 PARAM1 = sys.argv[1]

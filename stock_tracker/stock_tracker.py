@@ -8,7 +8,7 @@ import numpy as np
 from nsepy import get_history, get_quote
 
 def getdata(stock,sday,eday):
-    data = pd.DataFrame(get_history(symbol=stock, start=sday, end=eday))
+    data = pd.DataFrame(get_history(symbol=stock, start=sday, end=eday,))
     data = data.reset_index()
     #close = data.at[0, 'Prev Close']    # Access a single value using a label.
     close = data['Prev Close'].iloc[0]
