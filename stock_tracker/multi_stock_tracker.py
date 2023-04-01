@@ -31,6 +31,8 @@ if __name__ == "__main__":
         df.loc[len(df)] = data            # append new row (data) to df
         dict[script] = data[3]
 
-    print(dict) 
-    print(df.sort_values(by=['%Change'], ascending=False))
+    #print(dict) 
+    new_df=df.sort_values(by=['%Change'], ascending=False)
+    new_df = new_df.reset_index(drop=True)              # Update index after sorting data-frame
+    print(new_df)
     
