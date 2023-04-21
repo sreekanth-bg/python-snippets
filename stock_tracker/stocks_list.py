@@ -29,3 +29,23 @@ print(scripts)
 
 
 
+# from nsepy import get_history
+# from history import *
+# from datetime import date as dt
+# import csv
+# datas= raw_input("Enter symbol: ") 
+# end_day = date.today()
+# start_day = end_day - timedelta(500)
+
+# try :
+#     print('Downloading from NSE')        
+#     stock = get_history(datas, start_day, end_day)
+# except:
+#     print('Downloading not start')
+
+
+
+# print(stock)
+
+
+
